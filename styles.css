@@ -1,0 +1,317 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Fixed Header without a full-width border */
+header {
+    background: #fff;
+    /* color: rgb(59, 64, 70); */
+    color: #333;
+    font-family: 'Trebuchet MS', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Centered Container inside the Header with Max-Width and Border */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    /* border-bottom: 4px solid rgb(59, 64, 70); */
+    border-bottom: 4px solid #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Name Styling */
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+    /* color: rgb(59, 64, 70); */
+    color: #333;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation Items */
+nav ul li {
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+/* Navigation Links */
+nav ul li a {
+    /* color: rgb(59, 64, 70); */
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    /* transition: all 0.3s ease; */
+    border-radius: 5px;
+}
+
+/* Hover Effect: Grey Outline */
+nav ul li a:hover {
+    /* outline: 4px solid rgb(59, 64, 70); */
+    outline: 3px solid #333;
+    border-radius: 5px;
+    /* padding: 8px 13px; */
+}
+
+/* Push Main Content Below Fixed Header */
+main {
+    /* padding: 20px; */
+    max-width: 800px;
+    margin: 100px auto 0; /* Adjusted margin to avoid overlap with header */
+    background: #fff;
+}
+
+/* Content Styling */
+#content {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+#content h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+#content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    /* color: #658cbb; */
+    color: #3b628c;
+    margin-bottom: 0.5em;
+}
+
+#content a {
+    color: #86A9D2;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+/* Feedback Section */
+.feedback-section {
+    font-family: "Trebuchet MS", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+.feedback-section h3 {
+    margin-top: 1.5rem;
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feedback-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-section li {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    /* border-left: 4px solid #658cbb; */
+    border-left: 4px solid #3b628c;
+
+}
+
+.feedback-section blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #333;
+}
+
+.feedback-section cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.feedback-section a {
+    color: #86A9D2 !important; 
+    font-size: 0.9rem;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+.feedback-section a:hover {
+    text-decoration: underline !important;
+}
+
+/* New container to align the profile picture and research statement side-by-side */
+#profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #profile-picture {
+    /* Keeping the original styling */
+    text-align: left;
+  }
+  
+  #profile-picture img {
+    max-width: 200px;
+    border-radius: 5px;
+  }
+  
+  #research-statement {
+    flex: 1; /* This makes sure the research statement takes up the remaining space */
+  }
+  
+  .summary-section {
+    /* background-color: #f9f9f9; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .summary-section h3 {
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    background: white;
+    /* border-radius: 5px; */
+    overflow: hidden;
+  }
+  
+  .summary-table th, .summary-table td {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .summary-table th {
+    background-color: #3b628c;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .summary-table tr:hover {
+    background-color: whitesmoke;
+  }
+
+  .figure-toggle {
+    color: #86A9D2;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .figure-toggle:hover {
+    text-decoration: underline;
+  }
+
+.figure {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Container to display header and figure toggle side by side */
+.header-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+.header-container h3,
+.header-container .figure-toggle,
+.header-container a {
+  margin-bottom: 0;
+  margin-top: 0.3em;
+}
+
+.header-container a {
+    color: #86A9D2;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.header-container a:hover {
+    text-decoration: underline !important;
+}
+
+.pdf-inline-link {
+    margin: 1rem 0 2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.pdf-inline-link a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3b628c;
+    text-decoration: none;
+    border: 1px solid #3b628c;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pdf-inline-link a:hover {
+    background-color: #3b628c;
+    color: #fff;
+}
+
+.cv-entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3em;
+}
+
+.cv-entry .description {
+  flex: 1;
+}
+
+.cv-entry .date {
+  white-space: nowrap;
+  margin-left: 1em;
+  text-align: right;
+}
+
+#content p {
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+}

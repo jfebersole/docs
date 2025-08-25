@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jacob Ebersole - Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>JACOB EBERSOLE</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="pdf-inline-link">
+      <a href="cv.pdf" target="_blank"> PDF</a>
+    </div>
+
+    <section id="content">
+      <h2>EDUCATION</h2>
+
+      <h3>Georgetown University, Washington, DC</h3>
+      <div class="cv-entry">
+        <div class="description">Ph.D., Economics</div>
+        <div class="date">Expected 2026</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">M.A., Economics</div>
+        <div class="date">2022</div>
+      </div>
+
+      <h3>Dartmouth College, Hanover, NH</h3>
+      <div class="cv-entry">
+        <div class="description">B.A., Economics and Environmental Studies</div>
+        <div class="date">2014</div>
+      </div>
+    </section>
+
+    <section id="content">
+      <h2>FIELDS</h2>
+      <p>Applied Microeconomics, Public Economics, Environmental Economics</p>
+    </section>
+
+    <section id="content">
+      <h2>RESEARCH EXPERIENCE</h2>
+      <div class="cv-entry">
+        <div class="description">
+          <b>Research Assistant</b>, Professor Laurent Bouton, Georgetown University
+        </div>
+        <div class="date">2023–</div>
+      </div>
+    </section>
+
+    <section id="content">
+      <h2>TEACHING EXPERIENCE</h2>
+      <div class="cv-entry">
+        <div class="description"><b>Graduate Teaching Assistant</b>, Georgetown University
+        </div>
+  </div>
+      <div class="cv-entry">
+        <div class="description">Empirical Applications in Political Economy</div>
+        <div class="date">2025</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Public Sector Economics</div>
+        <div class="date">2024</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Microeconometrics (Master’s Level)</div>
+        <div class="date">2023</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Senior Thesis Seminar in Political Economy</div>
+        <div class="date">2023</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">International Economics</div>
+        <div class="date">2022</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Environmental Economics</div>
+        <div class="date">2022</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Economic Statistics</div>
+        <div class="date">2021</div>
+      </div>
+    </section>
+
+    <section id="content">
+      <h2>WORK EXPERIENCE</h2>
+      <div class="cv-entry">
+        <div class="description"><b>Senior Research Analyst</b>, Industrial Economics, Inc. (IEc)</div>
+        <div class="date">2014–2020</div>
+      </div>
+    </section>
+
+    <section id="content">
+      <h2>ACADEMIC SERVICE</h2>
+      <div class="cv-entry">
+        <div class="description">Co-Chair, Georgetown Economics Graduate Student Organization</div>
+        <div class="date">2023–2024</div>
+      </div>
+    </section>
+
+    <section id="content">
+      <h2>SEMINARS & CONFERENCES</h2>
+      <div class="cv-entry">
+        <div class="description">Berkeley/Sloan Summer School in Environmental and Energy Economics</div>
+        <div class="date">August 2023</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Camp Resources XXXI</div>
+        <div class="date">August 2025</div>
+      </div>
+      <div class="cv-entry">
+        <div class="description">Georgetown University Applied Microeconomics Seminar</div>
+        <div class="date">2025</div>
+      </div>
+
+    <section id="content">
+      <h2>JOB MARKET PAPER</h2>
+      <div class="header-container">
+          <h3>WIMBY: Wind in My Back Yard?</h3>
+          <!-- Clickable [Figure] text -->
+          <p id="wimbyFigureToggle" class="figure-toggle">[FIGURE]</p>
+          <!-- <a href="Ebersole_WIMBY.pdf">[PDF]</a> -->
+          <a>[PDF - coming soon!]</a>
+        </div>
+      <p>Wind energy generates substantial environmental benefits but imposes concentrated local costs that can lead to opposition and blocked projects. Using data on proposed wind projects in Illinois, I estimate that environmental benefits exceed local property value losses by more than a factor of thirty, highlighting the inefficiency of project rejections. To better understand the political dynamics, I link spatial variation in local costs and benefits to precinct-level election results for the county officials responsible for project approval. I find that incumbents lose vote share in precincts that incur property value losses, but gain votes in precincts that receive property tax revenues. These findings underscore the political challenges of renewable energy deployment in a decentralized regulatory system and suggest that policies aimed at increasing community compensation could better align local incentives with national climate goals.
+      </p>
+      <!-- The image is initially hidden -->
+        <img id="wimbyImage" class="figure" src="event_study_plot.png" alt="Local Cost/Benefit Figure" style="display: none;">
+
+        <!-- Inline script to toggle image visibility -->
+        <script>
+          document.getElementById("wimbyFigureToggle").addEventListener("click", function(){
+            var img = document.getElementById("wimbyImage");
+            var toggle = document.getElementById("wimbyFigureToggle");
+        
+            // If the image is hidden, show it and scroll; if it's visible, hide it without scrolling.
+            if (img.style.display === "none") {
+              img.style.display = "block";
+              // Adjust headerOffset to match the height of your fixed header
+              var headerOffset = 90;
+              var elementPosition = toggle.offsetTop;
+              window.scrollTo({ top: elementPosition - headerOffset, behavior: "smooth" });
+            } else {
+              img.style.display = "none";
+            }
+          });
+        </script>
+    </section>
+
+    <section id="content">
+      <h2>WORK IN PROGRESS</h2>
+      <div class="header-container">
+          <h3>Negotiated Growth: Housing Development and Discretionary Permitting in Boston</h3>
+          <!-- Clickable [Figure] text -->
+          <!-- <p id="bunchingFigureToggle" class="figure-toggle">[FIGURE]</p> -->
+        </div>
+        <!-- The image is initially hidden -->
+        <!-- <img id="bunchingImage" class="figure" src="bunching.png" alt="Bunching Figure" style="display: none;"> -->
+        
+        <!-- Inline script to toggle image visibility -->
+        <script>
+          document.getElementById("bunchingFigureToggle").addEventListener("click", function(){
+            var img = document.getElementById("bunchingImage");
+            var toggle = document.getElementById("bunchingFigureToggle");
+        
+            // If the image is hidden, show it and scroll; if it's visible, hide it without scrolling.
+            if (img.style.display === "none") {
+              img.style.display = "block";
+              // Adjust headerOffset to match the height of your fixed header
+              var headerOffset = 90;
+              var elementPosition = toggle.offsetTop;
+              window.scrollTo({ top: elementPosition - headerOffset, behavior: "smooth" });
+            } else {
+              img.style.display = "none";
+            }
+          });
+        </script>
+    </section>
+
+    <section id="content">
+      <h2>TECHNICAL SKILLS</h2>
+      <p>Python, Stata, R, GIS, Causal Inference</p>
+    </section>
+  </main>
+</body>
+</html>
