@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2024.2.15)  1 OCT 2025 16:59
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2024.2.15)  3 OCT 2025 10:20
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/jacob/Projects/website/Ebersole_CV
@@ -381,6 +381,21 @@ Package hyperref Info: Link coloring ON on input line 29.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+
+ []
+
+
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [2] (./Ebersole_CV.aux)
 Package rerunfilecheck Info: File `Ebersole_CV.out' has not changed.
@@ -392,15 +407,15 @@ Here is how much of LuaTeX's memory you used:
  100000,1977958 words of node,token memory allocated
  504 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 56 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 2:350,3:248,4:45,5:318,6:59,7:4848,8:3,9:284,10:8,11:405
+   avail lists: 2:350,3:248,4:45,5:330,6:59,7:4848,8:3,9:284,10:8,11:405
  30644 multiletter control sequences out of 65536+600000
  33 fonts using 2170679 bytes
- 72i,5n,72p,756b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,72p,759b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Ebersole_CV.pdf (2 pages, 33023 bytes).
+Output written on Ebersole_CV.pdf (2 pages, 34254 bytes).
 
-PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+PDF statistics: 56 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
