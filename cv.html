@@ -187,7 +187,7 @@
             // If the image is hidden, show it and scroll; if it's visible, hide it without scrolling.
             if (img.style.display === "none") {
               img.style.display = "block";
-              // Adjust headerOffset to match the height of your fixed header
+              // Adjust headerOffset to match the height of fixed header
               var headerOffset = 90;
               var elementPosition = toggle.offsetTop;
               window.scrollTo({ top: elementPosition - headerOffset, behavior: "smooth" });
